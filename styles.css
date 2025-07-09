@@ -1,0 +1,75 @@
+.pixel-font {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.altered-text {
+    color:rgb(221, 3, 255);
+    text-shadow: 7px 5px rgb(82, 221, 228);
+}
+
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color:rgb(255, 247, 0);
+    text-shadow: 7px 5px rgb(221, 3, 255);
+}
+
+body {
+    background-color: rgb(57, 42, 75);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    margin: 100px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px double black;
+    box-shadow: 0 0 20px rgba(45, 1, 42, 0.9);
+}
+
+.pressed {
+    box-shadow: 0 0 20px white !important;
+    background-color: rgb(158, 141, 158) !important;
+}
+
+#magenta {
+    background-color: rgb(225, 30, 243);
+}
+
+#green {
+    background-color: rgb(78, 228, 18);
+}
+
+#yellow {
+    background-color: rgb(244, 244, 8);
+}
+
+#blue {
+    background-color: rgb(23, 237, 219);
+}
+
